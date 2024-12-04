@@ -64,7 +64,7 @@ p {
 a {
     color: rgb(192, 192, 192);
     font-size: 22px;
-    transition: color 0.25s ease;
+    transition: 0.25s ease;
     text-decoration: none;
 
     border-radius: 6%;
