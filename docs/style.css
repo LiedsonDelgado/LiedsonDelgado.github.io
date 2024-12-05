@@ -112,6 +112,8 @@ a:hover {
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 0px;
+
+    animation: animate 2s ease-in-out infinite alternate;
 }
 
 .img_horizontal_center {
@@ -286,4 +288,15 @@ background: linear-gradient(to left, rgb(18, 18, 18), rgb(93, 93, 93), rgb(18, 1
     cursor: pointer;
     background-color: rgb(32, 32, 32);
     color: rgb(255, 255, 255);
+}
+
+/**/
+@keyframes animate{
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top: 30px;
+    }
 }
