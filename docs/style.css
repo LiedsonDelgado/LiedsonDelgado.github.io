@@ -102,18 +102,21 @@ a:hover {
 
     zoom: 1.8;
 
-    border: 3px inset rgb(255, 255, 255);
+    border: 3px inset rgb(226, 226, 226);
     border-radius: 100%;
     padding: 0px;
 
     display: flex;
+    position: relative;
+
+    box-shadow: 1px 1px 6px rgb(255, 255, 255);
 
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 0px;
 
-    animation: animate 2s ease-in-out infinite alternate;
+    animation: animate 1.5s ease-in-out infinite alternate-reverse;
 }
 
 .img_horizontal_center {
