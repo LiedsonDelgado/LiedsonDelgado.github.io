@@ -10,6 +10,8 @@ body {
     flex-direction: column;
     align-items: center;
 
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/12/18/13/background-5035258_960_720.jpg);
+
     background: rgb(222, 222, 222);
     height: 200vh;
 }
@@ -186,7 +188,7 @@ background: linear-gradient(to left, rgb(18, 18, 18), rgb(93, 93, 93), rgb(18, 1
     justify-content: center;
 
     gap: 20rem;
-    margin-top: 10px;
+    margin-top: 25px;
 
     text-decoration: none;
 }
